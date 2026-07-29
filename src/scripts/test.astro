@@ -1,0 +1,20 @@
+<script
+    is:inline
+    id="my-script"
+    type="text/javascript"
+    data-custom="value"
+    data-astro-rerun
+    define:vars={{ dummy: 'test' }}
+>
+    console.log('testing with define:vars attribute', dummy);
+</script>
+
+<script
+    is:inline
+    id="my-script"
+    type="text/javascript"
+    data-custom="value"
+    data-astro-rerun
+>
+    console.log('testing without define:vars attribute');
+</script>
